@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="./assets/bear.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lunathi Ndlondlo Coding Portfolio</title>
 <link rel= "stylesheet" href="./style/style.css">
+<link rel= "stylesheet" href="./style/mediaqueries.css">
 </head>
 <body>
     <nav id="desktop-nav">
@@ -17,10 +19,30 @@ Lunathi M. Ndlondlo
 <li><a href="#experience">Experience</a></li>
 <li><a href="#project">Project</a></li>
 <li><a href="#contact">Contact</a></li>
-
             </ul>
         </div>
     </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"> Lunathi M. Ndlondlo</div>
+            <div class="hamburger-menu"> 
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+<li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+<li><a href="#project" onclick="toggleMenu()">Project</a></li>
+<li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <div id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/20250223_131755.jpg" height="250" alt="Lunathi Ndlondlo Profile Picture"/>
+        </div>
+    </div>
   <script src="./script.js"></script>  
 </body>
 </html>
