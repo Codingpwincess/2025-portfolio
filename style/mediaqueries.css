@@ -37,6 +37,10 @@ height: fit-content;
     .about-containers{
         margin-top:0;
     }
+    .contact-info-upper-container{
+        flex-wrap:wrap;
+        
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -54,12 +58,13 @@ footer nav{
     height: fit-content;
     margin-bottom: 2rem;
 }
-.about-containers, .contact-info-upper-containers, .btn-container{
+.about-containers, .contact-info-upper-container, .btn-container{
 flex-wrap: wrap;
 }
 .contact-info-container{
     margin:0;
 }
+
 .contact-info-container p, .nav-links li a{
     font-size:1rem;
 }
